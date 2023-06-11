@@ -7,6 +7,7 @@ import Left from "./Components/Left";
 import Right from "./Components/Right";
 import Feature1 from "./Components/Feature1";
 import Features2 from "./Components/Features2";
+import Faq from "./Components/Faq";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         para="Send children on adventures with their favourite characters in a"
         next="space made just for them—free with your membership."
       />
+      <Faq />
     </div>
   );
 }
