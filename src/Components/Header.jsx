@@ -2,10 +2,10 @@ import React from "react";
 
 function Header(props) {
   return (
-    // {Hero}
+    //  HERO SECTION
     <div>
       <div>
-        <div className=" backdrop-brightness-150 ">
+        <div className="Hero background bg-black brightness-50 ">
           <div className="bg-[url('https://assets.nflxext.com/ffe/siteui/vlv3/73334647-ad51-42a9-b07b-93298cc2a8e1/2b0fca4f-c15c-4622-9efc-572c4a408c30/IN-en-20230605-popsignuptwoweeks-perspective_alpha_website_large.jpg')]">
             <div className="flex justify-end ">
               <div className="mr-auto pl-28">
@@ -25,7 +25,7 @@ function Header(props) {
                 </button>
               </div>
             </div>
-            <div className="text-white font-bold text-5xl text-center mt-32">
+            <div className="Hero Text text-white font-bold text-5xl text-center mt-32">
               {props.title}
             </div>
             <div className="text-white text-xl text-center mt-7">
@@ -35,12 +35,12 @@ function Header(props) {
               {props.next}
             </div>
             <div className="flex justify-center mt-8">
-              <div className=" ">
+              <div className="  ">
                 <input
-                  className="w-96 h-16 rounded-sm pl-3 mr-2 bg-slate-900 text-white mb-48 backdrop-brightness-0 bg-transparent"
+                  className="w-96 h-16 rounded-sm pl-3 mr-2 bg-slate-900 text-slate-200 mb-48 brightness-75 focus:outline-0 focus:w-full shadow-transparent "
                   type="email "
                   id="email"
-                  placeholder="Email address"
+                  placeholder="Email address "
                 />
               </div>
               <button className="text-white w-60 h-16 text-2xl bg-red-500 rounded-sm ">

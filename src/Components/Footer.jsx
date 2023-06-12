@@ -6,7 +6,7 @@ function Footer() {
       <div>
         <div className="bg-black shadow-md sticky top-0 z-0 text-slate-50 ">
           <div className="ml-8"> Questions? Call 000-800-919-1694</div>
-          <div className="flex justify-items-center gap-44 mt-10 ml-8 gap-y-44 ">
+          <div className="flex justify-items-center gap-44 mt-10 ml-8 gap-y-44 underline ">
             <ul>
               <li>FAQ</li>
               <li>Media Centre </li>

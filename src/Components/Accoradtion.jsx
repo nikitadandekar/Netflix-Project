@@ -6,7 +6,8 @@ function Accoradtion({ question, answer }) {
     <div>
       <div className="  mt-20">
         <div className="main heading bg-slate-600 flex justify-center w-4/6 ml-48 h-14 rounded-s-md">
-          <div className="text-2xl text-start">{question}</div>
+          <div className="text-2xl">{question}</div>
+
           <p onClick={() => setShow(!show)}>{show ? "-" : "+"}</p>
         </div>
 
